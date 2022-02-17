@@ -9,5 +9,3 @@ function checkSpam(str) {
 	
 	return res;
 }
-
-checkSpam(str);

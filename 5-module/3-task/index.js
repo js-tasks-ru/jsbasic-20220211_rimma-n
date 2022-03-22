@@ -1,11 +1,11 @@
-function initCarousel() {
+function initCarousel(){
     //Buttons
    const carouselArrowRight = document.querySelector(".carousel__arrow_right");
    const carouselArrowLeft = document.querySelector(".carousel__arrow_left");
     // carousel  
    const carouselInner = document.querySelector(".carousel__inner");
     //images
-   const img =carouselInner.querySelectorAll('.carousel__img');
+   const img = carouselInner.querySelectorAll('.carousel__img');
    const slideWidth = carouselInner.offsetWidth; 
     //counter
    let counter = 0;  
